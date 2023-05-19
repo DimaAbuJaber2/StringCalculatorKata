@@ -80,6 +80,19 @@ namespace StringCalcKata.Tests
             Assert.Equal(expectedMessage, exception.Message);
 
         }
+        [Theory]
+        [InlineData("3,4,5,6000", 12)]
+        [InlineData("1000,2", 1002)]
+        [InlineData("1002,5", 5)]
+        public void ReturnsSumGivenStringIgnoringValuesOverThan1000(string numbers, int expectedResult)
+        {
+            int result = StringCalculatorKata.Add(numbers);
+
+            Assert.Equal(expectedResult, result);
+        }
+
+
+
 
     }
 }
