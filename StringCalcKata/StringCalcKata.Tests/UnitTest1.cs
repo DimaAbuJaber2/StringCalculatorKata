@@ -36,5 +36,15 @@ namespace StringCalcKata.Tests
             }
 
         }
+
+        [Theory]
+        [InlineData("1,2,4", 7)]
+        [InlineData("2,4,5,7", 18)]
+        public void ReturnsNumberWithManyCommaSeparatedNumber(string numbers, int expectedResult)
+        {
+            int result = StringCalculatorKata.Add(numbers);
+
+            Assert.Equal(expectedResult, result);
+        }
     }
 }
