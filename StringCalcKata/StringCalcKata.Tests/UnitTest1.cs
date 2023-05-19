@@ -46,5 +46,16 @@ namespace StringCalcKata.Tests
 
             Assert.Equal(expectedResult, result);
         }
+
+        [Theory]
+        [InlineData("1\n2,4", 7)]
+        [InlineData("2,4\n5\n7", 18)]
+        public void ReturnsSumOfNumberWithManyCommaOrNewLinesSeparatedNumber(string numbers, int expectedResult)
+        {
+            int result = StringCalculatorKata.Add(numbers);
+
+            Assert.Equal(expectedResult, result);
+        }
+
     }
 }

@@ -12,7 +12,9 @@ namespace StringCalcKata
         {
             if (String.IsNullOrEmpty(numbers)) return 0;
 
-            var Splitednumbers = numbers.Split(',');
+            char[] separator = { ',', '\n' };
+
+            var Splitednumbers = numbers.Split(separator);
 
             return Splitednumbers.Select(num => int.Parse(num)).Sum();
 
