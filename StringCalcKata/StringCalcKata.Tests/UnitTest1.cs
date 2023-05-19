@@ -67,5 +67,19 @@ namespace StringCalcKata.Tests
             Assert.Equal(expectedResult, result);
         }
 
+        [Theory]
+        [InlineData("-4,8,7", "Negatives not allowed: -4")]
+        [InlineData("-21,-32", "Negatives not allowed: -21,-32")]
+        public void ThrowsGivenNegativeInputsTest(string numbers, string expectedMessage)
+        {
+
+            Action action = () => StringCalculatorKata.Add(numbers);
+
+            var exception = Assert.Throws<Exception>(action);
+
+            Assert.Equal(expectedMessage, exception.Message);
+
+        }
+
     }
 }

@@ -40,9 +40,17 @@ namespace StringCalcKata
 
             }
 
+            var NumbersList = SplitedNumbers.Select(num => int.Parse(num));
 
-            return SplitedNumbers.Select(num => int.Parse(num)).Sum();
-        
+            var NegativesList = NumbersList.Where(n => n < 0);
+
+            if (NegativesList.Any())
+            {
+                string NegativeString = String.Join(',', NegativesList.Select(num => num.ToString()));
+                throw new Exception($"Negatives not allowed: {NegativeString}");
+            }
+            return NumbersList.Sum();
+
 
 
 
