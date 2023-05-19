@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\bin\Debug\net6.0\StringCalcKata.exe
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\bin\Debug\net6.0\StringCalcKata.deps.json
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\bin\Debug\net6.0\StringCalcKata.runtimeconfig.json
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\bin\Debug\net6.0\StringCalcKata.dll
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\bin\Debug\net6.0\StringCalcKata.pdb
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.dll
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\refint\StringCalcKata.dll
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.pdb
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\StringCalcKata.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\StringCalculatorKata\StringCalcKata\StringCalcKata\obj\Debug\net6.0\ref\StringCalcKata.dll
