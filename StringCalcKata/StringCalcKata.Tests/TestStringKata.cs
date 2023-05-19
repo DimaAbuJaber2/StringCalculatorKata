@@ -1,6 +1,6 @@
 namespace StringCalcKata.Tests
 {
-    public class UnitTest1
+    public class TestStringKata
     {
         public class AddTest
         {
